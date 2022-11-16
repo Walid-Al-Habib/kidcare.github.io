@@ -1,0 +1,114 @@
+html,body{
+    height: 100%;
+}
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background:url(faq.jpg);
+    overflow: auto;
+    min-height: 100%;
+
+}
+/*Global*/
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    font-display: bold;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    color:rgb(92, 16, 75);
+}
+.button {
+    background-color: #f25;
+    border: none;
+    color:#fff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: -10px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.button:hover {
+    background-color: #f1f1f1;
+}
+/*Header*/
+header{
+    background:rgba(red, green, blue, alpha);
+    /*background-color:dodgerblue ;*/
+    padding-top: 15px;
+    min-height: 70px;
+}
+header a{
+    color: #fff;;
+    text-decoration: none;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px; 
+}
+header #branding{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 35px;
+}
+header a:hover{
+    /*font-weight: bold;*/
+    color: #7d8481;
+    /*text-decoration: underline;*/
+}
+
+.middle{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover{
+  background: #fff;
+}
+
+#showcase{
+  min-height:400px;
+  
+  text-align:center;
+  color:#fff;
+}
+
+#showcase h2{
+  margin-top:200px;
+  font-size:50PX;
+  margin-bottom:10px;
+}

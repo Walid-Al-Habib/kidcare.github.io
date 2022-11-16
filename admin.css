@@ -1,0 +1,171 @@
+html,body{
+	height: 100%;
+}
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(adminbg.jpg);
+	overflow: auto;
+	min-height: 100%;
+}
+.logo{
+	width: auto;
+  height: auto;
+  text-align: center;
+}
+.logo img{
+	display:inline-block;
+}
+.adminbox{
+	width: 460px;
+	margin: 0 auto;
+	height: auto;
+	background: rgba(0,0,0,0.65);
+	color: white;
+	top: 10%;
+	bottom: 20%;
+	/*left: 50%;*/
+	position: relative;
+	/*transform: translate(-50%,-50%);*/
+	box-sizing: border-box;
+	padding: 30px 30px;
+}
+
+.adminbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.adminbox input{
+	width: 100%;
+	margin-bottom: 20px;	
+}
+.adminbox input[type="text"],input[type="password"],input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+}
+.adminbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: black;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.adminbox  select{
+	height: 40px;
+	appearance :none;
+	display: block;
+	border-radius: 4px;
+	color: #fff;
+	border: 2px solid #fff;
+	background: transparent;
+	background-color: #201A1A;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+.adminbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: rgb(124, 119, 119);
+	color: rgb(54, 5, 5);
+}
+.adminbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color:yellow ;
+	font-size: 14px;
+}
+.adminbox a:hover{
+	color: gray;
+}
+
+
+.adminupdate{
+	width: 460px;
+	margin: 0 auto;
+	height: auto;
+	background: rgba(0,0,0,0.65);
+	color: white;
+	top: 10%;
+	bottom: 20%;
+	/*left: 50%;*/
+	position: relative;
+	/*transform: translate(-50%,-50%);*/
+	box-sizing: border-box;
+	padding: 30px 30px;
+}
+
+.adminupdate p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.adminupdate input{
+	width: 100%;
+	margin-bottom: 20px;	
+}
+.adminupdate input[type="text"],input[type="password"],input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+}
+.adminupdate input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: black;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.adminupdate  select{
+	height: 40px;
+	appearance :none;
+	display: block;
+	border-radius: 4px;
+	color: #fff;
+	border: 2px solid #fff;
+	background: transparent;
+	background-color: #201A1A;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+.adminupdate input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: rgb(124, 119, 119);
+	color: rgb(54, 5, 5);
+}
+.adminupdate a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color:yellow ;
+	font-size: 14px;
+}
+.adminupdate a:hover{
+	color: gray;
+}
